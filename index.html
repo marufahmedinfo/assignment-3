@@ -16,7 +16,7 @@
     <!-- font famely  -->
     <style>
         .font-popins{
-          font-family: "Manrope", sans-serif;
+          font-family: "Manrope";
         }
     </style>
     <!-- customizing js  -->
@@ -36,7 +36,7 @@
 
 </head>
 <body class="font-popins">
-    <header class="container mx-auto">
+    <header class="container mx-auto mb-16">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="flex-1">
@@ -105,7 +105,47 @@
         </div>
 
     </header>
-    <main></main>
+    <main>
+      <!-- We Design section  -->
+      <section class="bg-[#F4F4F4] pb-16 pt-10">
+            <!-- slow img  -->
+        <div class="ml-32">
+          <img class="hidden sm:block" src="assets/Vector.png" alt="Loading img.....">
+        </div>
+        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 px-10 lg:px-0 gap-20">
+          <!-- text and card part  -->
+          <div class="">           
+            <button class="border-[#ABEF5F]"><a class="btn bg-white text-lg font-extrabold rounded-3xl w-[300px] lg:w-full"><i class="fa-solid fa-arrow-right text-xl mr-2 rounded-full w-7 h-7 items-center justify-center text-black"></i>About Us</a></button>
+            <h1 class="lg:text-4xl md:text-4xl text-3xl font-black mb-7">We design thoughtful,<br> liveable spaces</h1>
+            <p class="text-gray-500">The barn house captivates with its blend of rustic charm and 
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <!-- card part  -->
+            <div class=" grid lg:grid-cols-1 md:grid-cols-2 grid-cols-1 gap-5">
+              <!-- card-1  -->
+              <div class="flex bg-white mt-5 p-8 rounded-xl gap-5">
+                <div class=""><img src="assets/commercial.png" alt="Loading img......."></div>
+                <div class="">
+                  <h4 class="text-lg font-extrabold">Commercial</h4>
+                  <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+              <!-- card-2  -->
+              <div class="flex bg-white mt-5 p-8 rounded-xl gap-5">
+                <div class=""><img src="assets/residential.png" alt="Loading img......."></div>
+                <div class="">
+                  <h4 class="text-lg font-extrabold">Residential</h4>
+                  <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- image part  -->
+          <div class="">
+            <img class="w-full lg:h-[530px]" src="assets/Rectangle.png" alt="Loading img.......">
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
 </body>
 </html>
